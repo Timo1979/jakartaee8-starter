@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+    <!--<security-domain>java:/jaas/erip-sec-domain</security-domain>
+    <context-root>rq</context-root>-->
+    <security-domain>erip-sec-domain</security-domain>
+    <default-encoding>UTF-8</default-encoding>
+</jboss-web>

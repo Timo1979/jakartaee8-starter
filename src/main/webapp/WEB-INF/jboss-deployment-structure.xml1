@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+    <deployment>
+        <dependencies>
+            <!-- add your project dependencies here -->
+            <!--<module name="org.slf4j"/>-->
+            <module name="org.infinispan" services="export"/>
+            <module name="org.infinispan.commons" services="export"/>
+            <module name="org.apache.log4j" services="export"/>
+            <module name="javax.xml.bind.api" services="export"/>
+            <module name="org.apache.commons.lang3" services="export"/>
+            <module name="org.apache.commons.io" services="export"/>
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>
